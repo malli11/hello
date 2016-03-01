@@ -1,0 +1,31 @@
+here apeach tomcat install pross 
+first in your mishin either java install or not
+then go to winscp  here we need to browse path  mean where we store apache tomcat folder
+then other side it shows like linux michan then goto /root and opt then drag folder apache tomcat 
+in 
+
+
+[root@localhost etc]# cd profile.d
+[root@localhost profile.d]# ll
+total 128
+-rwxr-xr-x 1 root root  766 Mar 21  2012 colorls.csh
+-rwxr-xr-x 1 root root  727 Mar 21  2012 colorls.sh
+-rw-r--r-- 1 root root   92 Feb 23  2012 cvs.csh
+-rwxr-xr-x 1 root root   78 Feb 23  2012 cvs.sh
+-rwxrwxrwx 1 root root  180 Feb 24 06:35 env.sh
+-rwxr-xr-x 1 root root  192 Mar 24  2009 glib2.csh
+-rwxr-xr-x 1 root root  192 Mar 24  2009 glib2.sh
+-rwxr-xr-x 1 root root   58 Feb 22  2012 gnome-ssh-askpass.csh
+-rwxr-xr-x 1 root root   70 Feb 22  2012 gnome-ssh-askpass.sh
+-rw-r--r-- 1 root root  218 Sep  3  2014 krb5-workstation.csh
+-rw-r--r-- 1 root root  229 Sep  3  2014 krb5-workstation.sh
+-rwxr-xr-x 1 root root 3015 Sep 22  2014 lang.csh
+-rwxr-xr-x 1 root root 3466 Sep 22  2014 lang.sh
+-rwxr-xr-x 1 root root  122 Feb 23  2012 less.csh
+-rwxr-xr-x 1 root root  108 Feb 23  2012 less.sh
+-rwxr-xr-x 1 root root  170 Jan  6  2007 which-2.sh
+[root@localhost profile.d]# cat env.sh
+export JAVA_HOME=/usr/lib/jvm/java-1.6.0
+export PATH=$PATH:/usr/lib/jvm/java-1.6.0/bin
+export TOMCAT_HOME=/opt/apache-tomcat-7.0.57
+export PATH=$PATH:/opt/apache-tomcat-7.0.57/bin
